@@ -1,6 +1,6 @@
 # ResumeFitConsole (LLM-first, domain-agnostic)
 
-This console app extracts requirement and resume evidence items using an LLM, embeds both sets with an embedding model, and computes cosine similarity per requirement.
+This console app extracts requirements (from Job description) and resume evidence items using an LLM, embeds both sets with an embedding model, and finds resume detail that matches any of the requirements by computing cosine similarity per requirement.
 It also uses an LLM to evaluate hard constraints (education, experience, location, work authorization, etc.) with explicit pass/fail/unknown outcomes.
 
 ## Why this design is generic
