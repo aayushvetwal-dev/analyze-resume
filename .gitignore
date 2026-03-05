@@ -1,0 +1,57 @@
+## .NET / C#
+bin/
+obj/
+out/
+[Bb]uild/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+
+## Visual Studio user files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Rider / ReSharper
+.idea/
+*.sln.iml
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+## VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+## Logs and temp
+*.log
+*.tmp
+*.temp
+*.cache
+
+## NuGet
+*.nupkg
+*.snupkg
+packages/
+!**/packages/build/
+!**/packages/repositories.config
+*.nuget.props
+*.nuget.targets
+
+## Test results
+TestResult*/
+TestResults/
+*.trx
+
+## OS files
+.DS_Store
+Thumbs.db
+
+## Local environment / secrets
+.env
+.env.*
+*.local
